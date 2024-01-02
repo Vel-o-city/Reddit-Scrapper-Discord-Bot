@@ -11,8 +11,8 @@ bot = discord.Client(intents=intents)
 
 # Initialize the Reddit API wrapper
 reddit = praw.Reddit(
-    client_id="6cQQyxkGQOxQD1_USpOQaw",#my client id
-    client_secret="geBqWor4swnVqUk-a1DRo3PZbH65wg",  #your client secret
+    client_id="",#my client id
+    client_secret="",  #your client secret
     user_agent="scraper", #user agent name
     username = "6Sanket9",     # your reddit username
     password = "")     # your reddit password
