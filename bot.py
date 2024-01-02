@@ -15,7 +15,7 @@ reddit = praw.Reddit(
     client_secret="geBqWor4swnVqUk-a1DRo3PZbH65wg",  #your client secret
     user_agent="scraper", #user agent name
     username = "6Sanket9",     # your reddit username
-    password = "Srv@12345")     # your reddit password
+    password = "")     # your reddit password
 def get_joke(x):
     sub = ['Jokes']
     for s in sub:
